@@ -437,14 +437,20 @@
 <!-- ═══════════════════════════════════════
      SLIDE 4 — BILL GATES
 ═══════════════════════════════════════ -->
-<section class="slide bg-light" id="s4">
-  <div class="center" style="max-width: min(80vw, 900px);">
-    <div class="divider center-line reveal d1"></div>
-    <blockquote class="t-quote c-white reveal d2" style="margin-bottom: 2rem;">
+<section class="slide" id="s4" style="padding: 0; display: grid; grid-template-columns: 5fr 7fr; align-items: stretch;">
+  <div style="position: relative; overflow: hidden;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Bill_Gates%2C_September_2024.jpg"
+         style="width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block;" />
+    <div style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(7,7,7,0) 45%, rgba(7,7,7,1) 100%);"></div>
+  </div>
+  <div style="display: flex; flex-direction: column; justify-content: center; padding: clamp(2.5rem, 5vw, 7rem); gap: clamp(1rem, 1.5vw, 1.5rem);">
+    <div class="divider reveal d1" style="margin: 0;"></div>
+    <blockquote class="t-quote c-white reveal d2" style="text-align: left; max-width: 95%; font-size: clamp(1rem, 2vw, 1.8rem);">
       "A IA vai ser o maior equalizador já inventado... ou a pior fonte de injustiça e desigualdade que a humanidade já criou."
     </blockquote>
     <p class="t-label c-red reveal d3">Bill Gates</p>
-    <p class="t-label c-gray reveal d4" style="margin-top: 0.5rem; font-weight: 300;">Não tem meio-termo.</p>
+    <p class="t-label c-gray reveal d4" style="font-weight: 300;">Fundador da Microsoft · Filantropo</p>
+    <p class="t-medium c-white reveal d5" style="text-align: left; font-size: clamp(0.9rem, 1.8vw, 1.5rem);">Não tem meio-termo.</p>
   </div>
 </section>
 
@@ -850,35 +856,75 @@
 <!-- ═══════════════════════════════════════
      SLIDE 23 — TRÊS VOZES
 ═══════════════════════════════════════ -->
-<section class="slide bg-light" id="s23">
-  <div class="left">
-    <p class="t-label c-red reveal d1">Três vozes. Três laboratórios. 2026.</p>
-    <div class="mt2" style="width: 100%; max-width: min(90vw, 1000px);">
-      <div class="voice-item reveal d2">
-        <p class="voice-num">01</p>
-        <div>
-          <p class="t-medium c-white"><strong>Jacob Coxon</strong></p>
-          <p class="t-label c-gray mt1">Ex-OpenAI / Anthropic · 27 anos</p>
-          <p class="t-body c-white mt1">"Estão jogando com as nossas vidas."</p>
-        </div>
-      </div>
-      <div class="voice-item reveal d3">
-        <p class="voice-num">02</p>
-        <div>
-          <p class="t-medium c-white"><strong>Evan Hubinger</strong></p>
-          <p class="t-label c-gray mt1">Anthropic · Alignment Stress Testing</p>
-          <p class="t-body c-white mt1">"A empresa ainda não tem um plano consolidado."</p>
-        </div>
-      </div>
-      <div class="voice-item reveal d4">
-        <p class="voice-num">03</p>
-        <div>
-          <p class="t-medium c-white"><strong>Bilal Chughtai</strong></p>
-          <p class="t-label c-gray mt1">Ex-Google DeepMind · <span class="c-red">ontem, 15 set. 2026</span></p>
-          <p class="t-body c-white mt1">"Acredito sinceramente que a IA tem o potencial de nos matar a todos."</p>
-        </div>
-      </div>
-    </div>
+<!-- Intro das três vozes -->
+<section class="slide bg-gradient" id="s23">
+  <div class="bg-noise"></div>
+  <div class="center" style="position: relative; z-index: 2; max-width: min(85vw, 900px);">
+    <p class="t-label c-gray reveal d1">De dentro dos maiores laboratórios do mundo</p>
+    <h2 class="t-hero c-red reveal d2 mt2">3 VOZES.</h2>
+    <h2 class="t-hero c-white reveal d3">3 LABORATÓRIOS.</h2>
+    <h2 class="t-hero reveal d4" style="color: rgba(255,255,255,0.3);">1 AVISO.</h2>
+    <p class="t-medium c-gray reveal d5 mt3">Todos em 2026. Todos públicos. Todos documentados.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SLIDE [VOZ 1] — JACOB COXON
+═══════════════════════════════════════ -->
+<section class="slide" id="s_coxon" style="padding: 0; display: grid; grid-template-columns: 5fr 7fr; align-items: stretch;">
+  <div style="position: relative; overflow: hidden; background: #0a0a0a;">
+    <img src="https://unavatar.io/x/hilbertspaess"
+         style="width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; filter: grayscale(20%);" />
+    <div style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(7,7,7,0) 45%, rgba(7,7,7,1) 100%);"></div>
+  </div>
+  <div style="display: flex; flex-direction: column; justify-content: center; padding: clamp(2.5rem, 5vw, 7rem); gap: clamp(0.8rem, 1.5vw, 1.5rem);">
+    <p class="t-label c-gray reveal d1">01 · Ex-OpenAI & Anthropic · 27 anos · Set 2026</p>
+    <h2 class="t-xlarge c-white reveal d2" style="text-align: left; max-width: 95%; font-size: clamp(1.5rem, 4vw, 3.5rem);">Jacob Coxon</h2>
+    <div class="divider reveal d3" style="margin: 0;"></div>
+    <blockquote class="t-quote c-white reveal d4" style="text-align: left; max-width: 95%; font-size: clamp(0.95rem, 1.9vw, 1.7rem);">
+      "Estão jogando com as nossas vidas. Nenhuma empresa está agindo de forma responsável. Eles estão correndo diretamente em direção à superinteligência que se autoaperfeiçoa."
+    </blockquote>
+    <p class="t-label c-red reveal d5" style="font-weight: 400; font-style: normal; text-align: left; font-size: clamp(0.7rem, 1.1vw, 0.9rem);">90 milhões de visualizações em menos de 24h — TIME Magazine</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SLIDE [VOZ 2] — EVAN HUBINGER
+═══════════════════════════════════════ -->
+<section class="slide" id="s_hubinger" style="padding: 0; display: grid; grid-template-columns: 5fr 7fr; align-items: stretch;">
+  <div style="position: relative; overflow: hidden; background: #0a0a0a;">
+    <img src="https://unavatar.io/x/EvanHub"
+         style="width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; filter: grayscale(20%);" />
+    <div style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(7,7,7,0) 45%, rgba(7,7,7,1) 100%);"></div>
+  </div>
+  <div style="display: flex; flex-direction: column; justify-content: center; padding: clamp(2.5rem, 5vw, 7rem); gap: clamp(0.8rem, 1.5vw, 1.5rem);">
+    <p class="t-label c-gray reveal d1">02 · Anthropic · Alignment Stress Testing · Set 2026</p>
+    <h2 class="t-xlarge c-white reveal d2" style="text-align: left; max-width: 95%; font-size: clamp(1.5rem, 4vw, 3.5rem);">Evan Hubinger</h2>
+    <div class="divider reveal d3" style="margin: 0;"></div>
+    <blockquote class="t-quote c-white reveal d4" style="text-align: left; max-width: 95%; font-size: clamp(0.95rem, 1.9vw, 1.7rem);">
+      "Jacob está certo — realmente acreditamos que a IA pode matar todos os humanos. Pessoalmente, acho que há mais de 10% de chance na próxima década. A Anthropic ainda não tem um plano para resolver o alinhamento da superinteligência."
+    </blockquote>
+    <p class="t-label c-red reveal d5" style="font-weight: 400; font-style: normal; text-align: left; font-size: clamp(0.7rem, 1.1vw, 0.9rem);">Líder de segurança da Anthropic. Em resposta pública a Jacob Coxon.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SLIDE [VOZ 3] — BILAL CHUGHTAI
+═══════════════════════════════════════ -->
+<section class="slide" id="s_chughtai_voz" style="padding: 0; display: grid; grid-template-columns: 5fr 7fr; align-items: stretch;">
+  <div style="position: relative; overflow: hidden; background: #0a0a0a;">
+    <img src="https://unavatar.io/x/bilalchughtai_"
+         style="width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; filter: grayscale(20%);" />
+    <div style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(7,7,7,0) 45%, rgba(7,7,7,1) 100%);"></div>
+  </div>
+  <div style="display: flex; flex-direction: column; justify-content: center; padding: clamp(2.5rem, 5vw, 7rem); gap: clamp(0.8rem, 1.5vw, 1.5rem);">
+    <p class="t-label c-gray reveal d1">03 · Ex-Google DeepMind · 15 Set 2026</p>
+    <h2 class="t-xlarge c-white reveal d2" style="text-align: left; max-width: 95%; font-size: clamp(1.5rem, 4vw, 3.5rem);">Bilal Chughtai</h2>
+    <div class="divider reveal d3" style="margin: 0;"></div>
+    <blockquote class="t-quote c-white reveal d4" style="text-align: left; max-width: 95%; font-size: clamp(0.95rem, 1.9vw, 1.7rem);">
+      "No Google, eu testemunhei o desenvolvimento da IA em primeira mão. Acredito sinceramente que a IA tem o potencial de <strong style="color: var(--red);">nos matar a todos</strong>."
+    </blockquote>
+    <p class="t-label c-red reveal d5" style="font-weight: 400; font-style: normal; text-align: left; font-size: clamp(0.7rem, 1.1vw, 0.9rem);">Publicado no X e LinkedIn — manhã de 15/09/2026</p>
   </div>
 </section>
 
@@ -886,7 +932,9 @@
      SLIDE 24 — QUOTE: CHUGHTAI
 ═══════════════════════════════════════ -->
 <section class="slide bg-gradient" id="s24">
-  <div class="center" style="max-width: min(80vw, 900px);">
+  <img src="https://unavatar.io/x/bilalchughtai_"
+       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; opacity: 0.07; filter: grayscale(60%); z-index: 0;" />
+  <div class="center" style="max-width: min(80vw, 900px); position: relative; z-index: 1;">
     <div class="divider center-line reveal d1"></div>
     <blockquote class="t-quote c-white reveal d2">
       "No Google, eu testemunhei o desenvolvimento da IA em primeira mão. Eu também estou extremamente preocupado com a trajetória padrão desta tecnologia. Acredito sinceramente que a IA tem o potencial de <strong style="color: var(--red);">nos matar a todos</strong>."
